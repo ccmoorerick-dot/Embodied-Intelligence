@@ -211,7 +211,7 @@ for real-world autonomous systems.
 [ INSERT TRACKING DEMO IMAGE / GIF HERE ]
 ```
 
----
+
 
 ### 🚁 Autonomous Robotics Control
 
@@ -219,7 +219,7 @@ for real-world autonomous systems.
 [ INSERT ROBOT / DRONE CONTROL DEMO HERE ]
 ```
 
----
+
 
 ### 🧠 System Overview
 
@@ -227,7 +227,7 @@ for real-world autonomous systems.
 [ INSERT ARCHITECTURE DIAGRAM HERE ]
 ```
 
----
+
 
 ## 📦 Installation
 
@@ -237,13 +237,13 @@ Coming soon: one-click deployment for:
 * RK3588 / RK3576 systems
 * ROS2 environments
 
----
+
 
 ## 📄 License
 
 MIT License
 
----
+
 
 ## 🌐 Documentation & Resources
 
