@@ -1,256 +1,241 @@
-# 🚀 AIRVOS — AI Real-time Vision & Autonomous Robotics System
+---
 
-### Real-Time Detection • Multi-Object Tracking • Edge AI Deployment • Robotics Autonomy
+# 🚀 GitHub README（升级完整版）
 
 ---
 
-## 🌍 We are building the perception-to-action layer for real-world robots.
+# 🌍 OpenEmbodied AI Platform (OEAI)
 
-AIRVOS is a **high-performance AI vision and control system** designed to connect:
-
-> **Camera perception → AI understanding → Autonomous robotic action**
-
-It enables drones, ground robots, and embedded systems to **see, understand, track, and act in real time** using a unified edge AI pipeline.
-
-This is not just a vision project.
-
-This is a **real-world autonomous robotics execution engine**.
+### Low-Cost Embodied Intelligence System for Robots, Drones, and Autonomous Vehicles
 
 ---
 
-## ⚡ Core Concept
+## 🔍 Keywords (for Search & SEO)
 
-Traditional AI systems stop at perception.
-
-AIRVOS goes further:
-
-> **Perception → Tracking → Decision → Control → Motion**
-
-It closes the loop between AI and the physical world.
+**Embodied AI | Robotics AI | Autonomous Systems | Edge AI | Robot Vision | Object Tracking | PX4 AI | MAVLink AI | ROS2 AI | RK3588 AI | Jetson AI | Drone Intelligence | UGV Autonomy | Real-Time Tracking | AI Robotics Platform**
 
 ---
 
-## 🧠 Key Capabilities
+## 🧠 Overview
 
-### 🎯 1. Optimized Real-Time Detection & Tracking Engine
+OpenEmbodied AI Platform is a **low-cost, real-time embodied intelligence system** designed for **robots, drones, and autonomous ground vehicles (UGVs)**.
 
-AIRVOS includes a fully optimized vision pipeline for embedded deployment:
+It enables machines to:
 
-* High-performance object detection optimized for edge devices
-* Stable multi-object tracking with minimal identity drift
-* Motion-aware tracking under fast dynamics
-* Low-latency inference pipeline optimized for real-time robotics
+> 👁 See the world
+> 🧠 Understand the environment
+> 🎯 Track objects in real time
+> 🚁 Act autonomously
 
-📌 Designed for **fast-moving aerial and ground robotics scenarios**
-
----
-
-### ⚙️ 2. Edge AI Native Deployment (Jetson + Rockchip)
-
-AIRVOS is fully engineered for **real-world embedded AI systems**:
-
-Supported platforms:
-
-* NVIDIA Jetson (Nano / Xavier / Orin)
-* Rockchip RK3576 (NPU accelerated)
-* Rockchip RK3588 (high-performance edge AI)
-
-Key features:
-
-* Zero-setup deployment pipeline
-* Hardware-aware optimization (GPU / NPU)
-* Cross-platform consistent runtime
-* Real-time inference optimization
+All in a **fully embedded edge AI system**.
 
 ---
 
-### 📷 3. Plug-and-Play USB Vision System
+This project focuses on building a **unified embodied intelligence layer** that connects:
 
-AIRVOS works with **any standard USB camera (UVC)**.
+* Computer Vision
+* Real-time Tracking
+* Edge AI Deployment
+* Robotics Control Systems
 
-No specialized hardware required.
-
-* USB webcam support
-* Real-time video streaming
-* Auto pipeline calibration
-* Low-latency frame processing
-
-📌 Turn any device into an AI vision robot in minutes.
+into a single deployable platform.
 
 ---
 
-### 🚁 4. Robotics Control Interface Layer
+## ⚙️ Core Features
 
-AIRVOS bridges AI perception directly into robotic control systems.
+### 🎯 1. Real-Time Detection & Tracking Engine
 
-Supported protocols:
+We provide an optimized perception pipeline for robotics applications:
 
-* 📡 CRSF (Crossfire RC protocol)
-* 📡 MSP (MultiWii Serial Protocol)
-* 📡 MAVLink (PX4 / ArduPilot ecosystem)
+* Real-time object detection optimized for edge devices
+* Stable multi-object tracking (low drift, high robustness)
+* Motion-adaptive tracking under fast dynamics
+* Low-latency inference for robotics control loops
 
-This enables direct control of:
-
-* Autonomous drones (UAV)
-* FPV racing drones
-* Ground robots (UGV)
-* Custom robotics platforms
+📌 Designed for real-world dynamic environments
 
 ---
 
-### 🔁 5. Full Closed-Loop Autonomy System
+### 🤖 2. Low-Cost Edge AI Robotics Platform
 
-AIRVOS implements a complete **real-time autonomy loop**:
+This system is optimized for **affordable hardware deployment**, including:
 
-```id="k9q8x2"
+* NVIDIA Jetson series (Nano / Xavier / Orin)
+* Rockchip RK3576 (NPU edge AI platform)
+* Rockchip RK3588 (high-performance robotics AI board)
+
+It transforms low-cost hardware into a **robotic intelligence computing unit**.
+
+---
+
+### 📷 3. Universal Sensor Support
+
+Only requires:
+
+> ✔ Standard USB Camera (UVC compatible)
+
+No LiDAR required
+No proprietary sensors required
+No expensive hardware required
+
+---
+
+### 🚁 4. Multi-Robot Control Interfaces
+
+The system integrates directly with robotics control stacks:
+
+* 📡 PX4 (Drone Autonomy)
+* 📡 ArduPilot
+* 📡 MAVLink Protocol
+* 📡 CRSF (FPV Control)
+* 📡 MSP (Betaflight / MultiWii)
+
+Supports multiple robotic platforms:
+
+* 🚁 Autonomous drones (UAV)
+* 🚗 Autonomous ground vehicles (UGV)
+* 🤖 Mobile robots
+* 🏭 Industrial robotics systems
+
+---
+
+### 🔁 5. Full Embodied AI Loop
+
+The system implements a real-world closed-loop intelligence system:
+
+```id="loop1"
 Camera Input
-    ↓
-AI Detection Engine
-    ↓
-Multi-Object Tracking
-    ↓
-Target State Estimation
-    ↓
-Autonomy Decision Layer
-    ↓
+   ↓
+Perception (Detection + Tracking)
+   ↓
+State Estimation
+   ↓
+Embodied Decision Engine
+   ↓
 Control Signal Generation
-    ↓
-CRSF / MSP / MAVLink Output
-    ↓
-Robot / Drone Motion Execution
+   ↓
+PX4 / MAVLink / CRSF / MSP
+   ↓
+Physical Robot Motion
+   ↓
+Environment Feedback Loop
 ```
 
 ---
 
 ## 🧬 System Architecture
 
-```id="a1m9pl"
+```id="arch1"
 ┌──────────────────────────────┐
-│        USB Camera            │
+│        Sensors (USB Cam)     │
 └──────────────┬───────────────┘
                ↓
 ┌──────────────────────────────┐
-│   AIRVOS Vision Engine       │
-│  - Detection                 │
-│  - Tracking                  │
-│  - State Estimation          │
+│   Embodied AI Engine         │
+│  - Detection                │
+│  - Tracking                 │
+│  - State Estimation         │
 └──────────────┬───────────────┘
                ↓
 ┌──────────────────────────────┐
-│   Edge AI Runtime Layer      │
-│  Jetson / RK3576 / RK3588    │
+│ Edge AI Compute Layer        │
+│ Jetson / RK3588 / RK3576     │
 └──────────────┬───────────────┘
                ↓
 ┌──────────────────────────────┐
-│   Robotics Control Layer     │
-│  CRSF / MSP / MAVLink        │
+│ Robotics Control Layer       │
+│ PX4 / MAVLink / ROS2 / MSP   │
 └──────────────┬───────────────┘
                ↓
 ┌──────────────────────────────┐
-│   UAV / UGV / Robot System   │
+│ Robots / Drones / UGVs       │
 └──────────────────────────────┘
 ```
 
 ---
 
-## 🧪 Engineering Highlights
+## 🚀 Supported Robotics Platforms
 
-* Real-time optimized inference pipeline
-* Embedded NPU/GPU acceleration support
-* Stable multi-object tracking under motion blur
-* Low-latency robotics control loop (< real-time threshold)
-* Cross-platform edge AI consistency layer
-
----
-
-## 🚀 Supported Hardware
-
-* NVIDIA Jetson Series (Nano / Xavier / Orin)
-* Rockchip RK3576 (Edge NPU AI systems)
-* Rockchip RK3588 (High-performance AI edge computing)
-* Standard USB cameras (UVC compliant)
+* 🚁 Autonomous UAV systems (PX4 / ArduPilot)
+* 🚗 Autonomous ground robots (UGV)
+* 🤖 ROS2-based robotics systems
+* 🏭 Industrial inspection robots
+* 🛰 Edge AI autonomous systems
 
 ---
 
-## 📡 Supported Robotics Protocols
+## ⚡ Engineering Highlights
 
-* CRSF — FPV / RC systems
-* MSP — lightweight flight controller communication
-* MAVLink — PX4 / ArduPilot autonomous systems
-
----
-
-## 🧠 Use Cases
-
-AIRVOS is designed for **real-world autonomous systems**, including:
-
-* Autonomous FPV drones
-* AI-assisted racing drones
-* Surveillance & inspection UAVs
-* Ground robotics navigation systems
-* Research robotics platforms
-* Edge AI perception systems
-
----
-
-## 🔥 Why AIRVOS Exists
-
-Modern robotics systems are fragmented:
-
-* Vision systems are separate from control systems
-* AI models are not tightly coupled with robotics execution
-* Edge deployment is overly complex
-* Real-time autonomy is difficult to achieve
-
-AIRVOS unifies them into a single system:
-
-> **A real-time AI perception and control layer for physical robots**
+* Real-time optimized edge AI inference pipeline
+* Cross-platform deployment (Jetson + Rockchip)
+* Low-latency tracking system for robotics control loops
+* Hardware-aware AI acceleration (GPU + NPU)
+* Fully modular robotics integration layer
 
 ---
 
 ## 🧠 What Makes This Different
 
-Unlike traditional projects, AIRVOS is:
+Unlike traditional AI vision projects, this system is:
 
-* Not just a model
-* Not just a detector
-* Not just a robotics stack
+> ❌ Not just a detector
+> ❌ Not just a tracking system
+> ❌ Not just a robotics SDK
 
 It is:
 
-> **A real-time autonomy engine connecting AI to physical motion**
+> 🚀 A full **Embodied Intelligence Operating Layer**
+
+for real-world autonomous systems.
 
 ---
 
-## 🎥 Demos
+## 🎯 Use Cases
 
-### 🎯 Real-time Detection & Tracking
+* Autonomous drone navigation
+* AI-powered FPV systems
+* Smart surveillance robots
+* Industrial inspection robotics
+* Autonomous delivery robots
+* Research robotics platforms
+* Edge AI autonomy systems
 
-```id="demo1"
-[ INSERT DEMO IMAGE / GIF HERE ]
+---
+
+## 🧪 Demo
+
+### 🎯 Real-Time Tracking System
+
+```id="demo_tracking"
+[ INSERT TRACKING DEMO IMAGE / GIF HERE ]
 ```
 
 ---
 
 ### 🚁 Autonomous Robotics Control
 
-```id="demo2"
-[ INSERT DRONE / ROBOT CONTROL DEMO HERE ]
+```id="demo_control"
+[ INSERT ROBOT / DRONE CONTROL DEMO HERE ]
 ```
 
 ---
 
 ### 🧠 System Overview
 
-```id="demo3"
-[ INSERT ARCHITECTURE VISUAL HERE ]
+```id="demo_arch"
+[ INSERT ARCHITECTURE DIAGRAM HERE ]
 ```
 
 ---
 
 ## 📦 Installation
 
-*(Coming soon — modular deployment system for Jetson & Rockchip platforms)*
+Coming soon: one-click deployment for:
+
+* Jetson platforms
+* RK3588 / RK3576 systems
+* ROS2 environments
 
 ---
 
@@ -260,8 +245,9 @@ MIT License
 
 ---
 
-## 🌐 Documentation & Updates
+## 🌐 Documentation & Resources
 
 👉 [https://your-domain.com](https://your-domain.com)
 
+---
 
