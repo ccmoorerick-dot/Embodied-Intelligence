@@ -8,13 +8,13 @@
 
 ### Low-Cost Embodied Intelligence System for Robots, Drones, and Autonomous Vehicles
 
----
+
 
 ## 🔍 Keywords (for Search & SEO)
 
 **Embodied AI | Robotics AI | Autonomous Systems | Edge AI | Robot Vision | Object Tracking | PX4 AI | MAVLink AI | ROS2 AI | RK3588 AI | Jetson AI | Drone Intelligence | UGV Autonomy | Real-Time Tracking | AI Robotics Platform**
 
----
+
 
 ## 🧠 Overview
 
@@ -29,7 +29,7 @@ It enables machines to:
 
 All in a **fully embedded edge AI system**.
 
----
+
 
 This project focuses on building a **unified embodied intelligence layer** that connects:
 
@@ -40,7 +40,7 @@ This project focuses on building a **unified embodied intelligence layer** that 
 
 into a single deployable platform.
 
----
+
 
 ## ⚙️ Core Features
 
@@ -55,7 +55,7 @@ We provide an optimized perception pipeline for robotics applications:
 
 📌 Designed for real-world dynamic environments
 
----
+
 
 ### 🤖 2. Low-Cost Edge AI Robotics Platform
 
@@ -67,7 +67,7 @@ This system is optimized for **affordable hardware deployment**, including:
 
 It transforms low-cost hardware into a **robotic intelligence computing unit**.
 
----
+
 
 ### 📷 3. Universal Sensor Support
 
@@ -79,7 +79,7 @@ No LiDAR required
 No proprietary sensors required
 No expensive hardware required
 
----
+
 
 ### 🚁 4. Multi-Robot Control Interfaces
 
@@ -98,7 +98,7 @@ Supports multiple robotic platforms:
 * 🤖 Mobile robots
 * 🏭 Industrial robotics systems
 
----
+
 
 ### 🔁 5. Full Embodied AI Loop
 
@@ -122,7 +122,7 @@ Physical Robot Motion
 Environment Feedback Loop
 ```
 
----
+
 
 ## 🧬 System Architecture
 
@@ -133,9 +133,9 @@ Environment Feedback Loop
                ↓
 ┌──────────────────────────────┐
 │   Embodied AI Engine         │
-│  - Detection                │
-│  - Tracking                 │
-│  - State Estimation         │
+│  - Detection                 │
+│  - Tracking                  │
+│  - State Estimation          │
 └──────────────┬───────────────┘
                ↓
 ┌──────────────────────────────┐
@@ -153,7 +153,7 @@ Environment Feedback Loop
 └──────────────────────────────┘
 ```
 
----
+
 
 ## 🚀 Supported Robotics Platforms
 
@@ -163,7 +163,7 @@ Environment Feedback Loop
 * 🏭 Industrial inspection robots
 * 🛰 Edge AI autonomous systems
 
----
+
 
 ## ⚡ Engineering Highlights
 
@@ -173,7 +173,7 @@ Environment Feedback Loop
 * Hardware-aware AI acceleration (GPU + NPU)
 * Fully modular robotics integration layer
 
----
+
 
 ## 🧠 What Makes This Different
 
@@ -189,7 +189,7 @@ It is:
 
 for real-world autonomous systems.
 
----
+
 
 ## 🎯 Use Cases
 
@@ -201,7 +201,7 @@ for real-world autonomous systems.
 * Research robotics platforms
 * Edge AI autonomy systems
 
----
+
 
 ## 🧪 Demo
 
