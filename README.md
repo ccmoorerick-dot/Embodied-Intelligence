@@ -131,9 +131,9 @@ Robot / Drone Motion Execution
                ↓
 ┌──────────────────────────────┐
 │   AIRVOS Vision Engine       │
-│  - Detection                │
-│  - Tracking                 │
-│  - State Estimation         │
+│  - Detection                 │
+│  - Tracking                  │
+│  - State Estimation          │
 └──────────────┬───────────────┘
                ↓
 ┌──────────────────────────────┐
