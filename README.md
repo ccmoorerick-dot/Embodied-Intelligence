@@ -247,7 +247,7 @@ MIT License
 
 ## 🌐 Documentation & Resources
 
-👉 [https://your-domain.com](https://yours-domain.com)
+👉 [https://eatrademarket.com](https://eatrademarket.com)
 
 
 
