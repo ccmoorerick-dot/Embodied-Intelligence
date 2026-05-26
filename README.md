@@ -6,7 +6,7 @@
 
 # 🌍 OpenEmbodied AI Platform (OEAI)
 
-👉 [https://eatrademarket.com](https://eatrademarket.com)
+👉 Our website is under construction... [https://eatrademarket.com](https://eatrademarket.com)   
 
 ### Low-Cost Embodied Intelligence System for Robots, Drones, and Autonomous Vehicles
 
